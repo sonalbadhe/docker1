@@ -31,6 +31,6 @@ jobs:
       
       with:
         image: atharvasonal/dockerwebapp
-        registry: dockerwebapp.io
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
